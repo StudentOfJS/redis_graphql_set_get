@@ -1,0 +1,38 @@
+Arguments: 
+  /home/rod/.nvm/versions/node/v8.4.0/bin/node /home/rod/.nvm/versions/node/v8.4.0/bin/yarn add -D babel-cli babel-preset-env babel-preset-stage3
+
+PATH: 
+  /home/rod/.nvm/versions/node/v8.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/usr/local/go/bin:/home/rod/Android/Sdk/tools:/home/rod/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.4.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "redisGraphQL",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "babel-preset-stage3" on the "npm" registry.
+      at new MessageError (/home/rod/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/cli.js:186:110)
+      at NpmResolver.<anonymous> (/home/rod/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/cli.js:51625:15)
+      at Generator.next (<anonymous>)
+      at step (/home/rod/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /home/rod/.nvm/versions/node/v8.4.0/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
